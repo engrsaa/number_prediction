@@ -7,8 +7,8 @@ const userInput = await inquirer.prompt({
     message: "Guess a number between 1-6 : "
 });
 if (rndmNmbr == userInput.userNmbr) {
-    console.log(`Congratulations your guessed number is RIGHT!`);
+    console.log(`Random Number is ${rndmNmbr}. Congratulations your guessed number is RIGHT!`);
 }
 else {
-    console.log(`Oops your guessed number is WRONG!`);
+    console.log(`Random Number is ${rndmNmbr}. Oops your guessed number is WRONG!`);
 }
